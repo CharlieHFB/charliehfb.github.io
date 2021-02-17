@@ -1,0 +1,163 @@
+* {
+    /*border: 1px solid red !important;*/
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+  
+html {
+    background-image: linear-gradient(to bottom right, #132226 , #525b56);
+    font-size: 17px;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header,
+section {
+    width: 1050px;
+    border: 3px double #be9063;
+}
+
+#about,
+#challenges {
+    width: 1300px;
+}
+
+header {
+    height: 400px;
+    margin: 0 auto;
+}
+
+section {
+    height: 400px;
+    margin: 0 auto;
+}
+ 
+nav {
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    color: rgb(212, 212, 212);
+    background-color:  #040c0e;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    border: 3px solid #be9063;
+}
+
+nav h2 {
+    font-family: 'Do Hyeon', sans-serif;
+}
+  
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-left: auto;
+    color: #666;
+}
+
+nav li {
+    margin: 0px 20px;
+}
+
+#banner {
+    background-image:url("./PortfolioImage1.png");
+    background-size:cover;
+    text-align: center;
+    color: #1b1b19;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+    
+#banner h1 {
+    margin-top: 150px;
+}
+
+#about {
+    background-image: linear-gradient(to right, #525b56 , #132226);
+    color: #a8a8a8;
+    font-weight: 600;
+    z-index: 1;
+    height: 400px;
+    margin: 20px 0px;
+}
+#about h2 {
+    margin: 15px 20px;
+}
+  
+#projects {
+    background-image: linear-gradient(to right, #132226 , #525b56);
+    color: #a4978e;
+    z-index: 2;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+   
+.project-image{
+    height: 200px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+/* #challenges {
+    background-color: #d8c3a500;
+    color: #E85A4F;
+} */
+
+p,
+h2,
+summary {
+    margin-left: 20px;
+}
+
+footer {
+    height: 140px;
+    width: 100%;
+    text-align: center;
+    color: rgb(212, 212, 212);
+    background-color:  #040c0e;
+    z-index: 1;
+    font-weight: bold;
+    border: 3px solid #be9063;
+}
+li {
+    margin-left: 60px;
+}
+details {
+    margin: 10px 0px
+}
+a:link, a:visited {
+    background-color: #040c0e;
+    color: rgb(117, 117, 117);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #dbdbdb;
+  }
+
+details a:link,
+details a:visited {
+    background-color: #040c0e00;
+    color: rgb(117, 117, 117);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+details a:hover,
+details a:active {
+    background-color: #dbdbdb00;
+}

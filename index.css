@@ -1,0 +1,83 @@
+* {
+  border: 1px solid red !important;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-3) 0;
+  height: 50px;
+  width: 1000px;
+  color: #DCE1E3;
+}
+
+html,
+body {
+  background-color: #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav,
+footer {
+  background-color: #283747;
+  color: #DCE1E3;
+}
+
+#about {
+  background-color: #932432;
+  color: #DCE1E3;
+}
+
+#projects {
+  background-color: #3C1874;
+  color: #DCE1E3;
+}
+
+#challenges {
+  background-color: #DE354C;
+  color: #DCE1E3;
+}
+
+.navigation-items {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-left: auto;
+}
+nav li {
+  margin: 0px 20px;
+}
+
+#banner {
+  background-image:url("placeholder\ image.jpg");
+  background-size:cover;
+  text-align: center;
+  color: #DCE1E3;
+}
+
+#banner h1 {
+  margin-top: 150px;
+  background-color: #3b18746e;
+}
+
+header,
+section {
+  height: 400px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+footer {
+  height: 100px;
+  width: 1000px;
+}
+
+.project-image {
+  height: 300px;
+  width: 500px;
+}
