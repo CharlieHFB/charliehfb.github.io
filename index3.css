@@ -20,13 +20,13 @@ body {
 
 header,
 section {
-    width: 1050px;
+    width: 80%;
     border: 3px double #be9063;
 }
 
 #about,
 #challenges {
-    width: 1300px;
+    width: 80%;
 }
 
 header {
@@ -70,34 +70,33 @@ nav li {
 #banner {
     background-image:url("./PortfolioImage1.png");
     background-size:cover;
+    height: 500px;
     text-align: center;
     color: #1b1b19;
     font-size: 1.5rem;
-    margin-top: 10px;
 }
     
 #banner h1 {
-    margin-top: 150px;
+    margin-top: 180px;
 }
 
 #about {
-    background-image: linear-gradient(to right, #525b56 , #132226);
+    background-color: #132226;
     color: #a8a8a8;
     font-weight: 600;
     z-index: 1;
     height: 400px;
-    margin: 20px 0px;
 }
 #about h2 {
     margin: 15px 20px;
 }
   
 #projects {
-    background-image: linear-gradient(to right, #132226 , #525b56);
+    background-color: #132226;
     color: #a4978e;
     z-index: 2;
     font-weight: 600;
-    margin-bottom: 10px;
+    height: 650px;
 }
    
 .project-image{
